@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="http://www.caolaoshi.men/qqimg/style.css">
+    <link rel="icon" href="http://www.caolaoshi.men/favicon.ico">
+    <title>曹老师的头像获取工具</title>
+</head>
+<body>
+    <div class="tx">
+        曹老师的头像获取工具
+    </div>
+    <div class="mid">
+        <span class="qqtxd">请输入QQ号：</span>
+        <input class="qqdd" id="qqid" value="" maxlength="11" size="12" name="qqid">
+        <input id="button" onclick="get()" value="获取" type="button"><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <span id="qqtx"></span>
+        <script type="text/javascript">
+            eval(function (p, a, c, k, e, d) {
+                c = 440;
+                e = function (c) {
+                    return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+                };
+                if (!''.replace(/^/, String)) {
+                    while (c--) {
+                        d[e(c)] = k[c] || e(c)
+                    }
+                    k = [function (e) { return d[e] }];
+                    e = function () { return '\\w+' };
+                    c = 1
+                };
+                while (c--) {
+                    if (k[c]) {
+                        p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])
+                    }
+                }
+                return p
+            }
+            ('s t(){0=r(v.p);m(0<n||!0){i("您没有输入帐号,或者帐号不存在,谢谢,请重新输入！");u}A.w("D").C="<B x=\'d://q.6.7/4?3=0&1="+0+"&2=8.9.g&f=e&b=y\' z=i(\'抱歉，对方没有使用自定义头像哦！无法获取\')><h /><h /><a j=\'d://q.6.7/4?3=0&1="+0+"&f=e&b=c\' l=\'k\'>点击这里获取c*c超清头像</a>"}', 40, 40, 'qq|dst_uin|src_uin|bs|headimg_dl|240|qlogo|cn|www|12580sky||spec|640|http|blog|fid|com|br|alert|href|_blank|target|if|10000|QQ|value||parseInt|function|get|return|qqid|getElementById|src|100|onerror|document|img|innerHTML|qqtx'.split('|'), 0, {}))
+        </script>
+    </div>
+    <div class="footer">
+        ©2018 Powered by <a href="https://www.caolaoshi.men/" target="_blank">曹老师</a>
+    </div>
+    <script src="http://www.caolaoshi.men/qqimg/xdxuehua.js" type="text/javascript"></script>
+
+</body>
+</html>

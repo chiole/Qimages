@@ -1,0 +1,94 @@
+﻿.tx{
+    font-family:"Microsoft JhengHei";
+    text-align:center;
+    font-size:80px;
+}
+.mid{
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:40px;
+}
+.mid a{
+    text-decoration:none;
+    color: darkgoldenrod;
+}
+.mid a:hover{
+    color:blue;
+}
+.qqdd{
+    height:23px;
+    width:155px;
+}
+.qqtxd{
+    font-size:23px;
+    color:#f78d1d;
+    margin-top:10px;
+}
+#button{
+    height:30px;
+    width:99px;
+    text-align:center;
+    line-height:100%;
+    font-family:Arial,sans-serif;
+    font-size:17px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-decoration:none;
+    margin-top:4px;
+    margin-right:2px;
+    margin-bottom:-5px;
+    margin-left:2px;
+    vertical-align:text-bottom;
+    display:inline-block;
+    cursor:pointer;
+    zoom:1;
+    outline-width:medium;
+    outline-color:invert;
+    font-size-adjust:none;
+    font-stretch:normal;
+    border-top-left-radius:0.5em;
+    border-top-right-radius:0.5em;
+    border-bottom-left-radius:0.5em;
+    border-bottom-right-radius:0.5em;
+    box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+    text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+    color:#fefee9;
+    border-top-color:#da7c0c;
+    border-right-color:#da7c0c;
+    border-bottom-color:#da7c0c;
+    border-left-color:#da7c0c;
+    border-top-width:1px;
+    border-right-width:1px;
+    border-bottom-width:1px;
+    border-left-width:1px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    background-image:none;
+    background-attachment:scroll;
+    background-repeat:repeat;
+    background-position-x:0%;
+    background-position-y:0%;
+    background-size:auto;
+    background-origin:padding-box;
+    background-clip:padding-box;
+    background-color:#f78d1d;
+}
+#button :hover{
+    background: #f47c20;
+}
+.footer{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    color: #737373;
+    line-height: 32px;
+    position: fixed;
+    bottom: 0;
+}
+.footer a{
+    text-decoration:none;
+    color: #737373;
+}
